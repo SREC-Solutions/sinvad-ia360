@@ -1,0 +1,14 @@
+[Unit]
+Description=Hermes Chatbot Service
+After=network.target
+
+[Service]
+Type=simple
+User=srec
+WorkingDirectory=/home/srec/Hermes
+ExecStart=/home/srec/Hermes/hermes-startup.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
