@@ -15,5 +15,5 @@ recursos y apoya el cumplimiento de normas de calidad de forma ágil y personali
 </p>
 
 <p align="center">
-  <img src="Logos.png" width="900">
+  <img src="logos/Logos.png" width="900">
 </p>
